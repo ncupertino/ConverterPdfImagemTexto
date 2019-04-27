@@ -3,6 +3,10 @@ import pytesseract
 import cv2
 
 
+#
+#It is necessary to install the poppler to convert pdf into image
+#
+
 class Extrair:
 
   def Converter_Pdf_Imagem(path): #path of the pdf file
